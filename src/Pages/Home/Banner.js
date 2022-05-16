@@ -19,7 +19,7 @@ const Banner = () => {
             a id nisi.
           </p>
           <div>
-            <PrimaryButton></PrimaryButton>
+            <PrimaryButton>GET STARTED</PrimaryButton>
           </div>
         </div>
       </div>

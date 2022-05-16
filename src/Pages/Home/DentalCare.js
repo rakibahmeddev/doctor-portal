@@ -22,7 +22,7 @@ const DentalCare = () => {
             packages and web page
           </p>
           <div>
-            <PrimaryButton></PrimaryButton>
+            <PrimaryButton>Get Started</PrimaryButton>
           </div>
         </div>
       </div>
