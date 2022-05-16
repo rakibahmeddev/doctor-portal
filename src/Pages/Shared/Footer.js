@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import footer from "../../assets/images/footer.png";
 
 const Footer = () => {
+  const yearNow = new Date().getFullYear();
   return (
     <div
       style={{
@@ -36,7 +37,7 @@ const Footer = () => {
         <div>
           <footer class="footer footer-center p-4 ">
             <div>
-              <p>Copyright © 2022 - All right reserved</p>
+              <p>Copyright © {yearNow} - All right reserved</p>
             </div>
           </footer>
         </div>
