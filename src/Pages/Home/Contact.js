@@ -13,26 +13,26 @@ const Contact = () => {
       </div>
       {/* form  */}
 
-      <div class="form-control w-full sm:px-[200px] md:px-[180px] lg:px-[500px] mt-10">
+      <div className="form-control w-full sm:px-[200px] md:px-[180px] lg:px-[500px] mt-10">
         <form>
           <input
             type="text"
             placeholder="email"
-            class="input input-bordered w-full  my-2"
+            className="input input-bordered w-full  my-2"
           />
           <input
             type="text"
             placeholder="subject"
-            class="input input-bordered w-full  my-2"
+            className="input input-bordered w-full  my-2"
           />
           <textarea
-            class="textarea w-full textarea-bordered my-2 h-fit-content"
+            className="textarea w-full textarea-bordered my-2 h-fit-content"
             placeholder="message"
           ></textarea>
           <div className="flex justify-center my-3">
             <></>
             <input
-              class="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary px-10"
+              className="btn btn-primary uppercase text-white font-bold bg-gradient-to-r from-secondary to-primary px-10"
               type="submit"
               value="SUBMIT"
             />
